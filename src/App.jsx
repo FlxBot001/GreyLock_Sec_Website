@@ -14,15 +14,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <div
-        className='px-7'
-      >
-      <FeatureSection />
+      <div className='max-w-7xl mx-auto pt-20 px-6'>
+        <HeroSection />
+        <FeatureSection />
+        <Workflow />
+        <Pricing />
+        <Testimonials />
       </div>
-      <Workflow />
-      <Pricing />
-      <Testimonials />
+      
     </>
   )
 }
