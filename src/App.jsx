@@ -7,6 +7,8 @@ import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
+import ContactPage from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,11 +16,16 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <FeatureSection />
-      <Workflow />
-      <Pricing />
-      <Testimonials />
+      <div className='max-w-7xl mx-auto pt-20 px-6'>
+        <HeroSection />
+        <FeatureSection />
+        <Workflow />
+        <Pricing />
+        <Testimonials />
+        <ContactPage />
+        <Footer />
+      </div>
+      
     </>
   )
 }

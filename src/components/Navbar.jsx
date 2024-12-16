@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logor from "../assets/logor.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
             <img 
               className="h-10 w-10 mr-2" 
-              src={logo} 
+              src={logor} 
               alt="Logo" 
             />
             <span className="text-xl tracking-tight">GreyLock</span>
@@ -42,7 +42,7 @@ const Navbar = () => {
               href="#"
               className="bg-gradient-to-r from-green-500 to-teal-800 py-2 px-3 rounded-full"
             >
-              Create an account
+              Contact Us
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">

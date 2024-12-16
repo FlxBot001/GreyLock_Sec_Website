@@ -13,143 +13,148 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Features", href: "#features" }, // Navigates to the Features section of the page
+  { label: "Workflow", href: "#workflow" }, // Navigates to the Workflow section
+  { label: "Pricing", href: "#pricing" }, // Navigates to the Pricing section
+  { label: "Testimonials", href: "#testimonials" }, // Navigates to the Testimonials section
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Mark Thompson",
+    company: "SecureOps Solutions",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "GreyLock System revolutionized our security posture. Their real-time threat detection capabilities and seamless multi-cloud integration helped us mitigate vulnerabilities effectively. Their expertise in cybersecurity is unmatched.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Sarah Collins",
+    company: "NextGen Cloud Services",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "We were struggling with compliance and data security until GreyLock System came in. Their advanced analytics and automated reporting streamlined our compliance processes, saving us countless hours and ensuring audit readiness.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "James Walker",
+    company: "Apex Financial Technologies",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Partnering with GreyLock System was a game-changer for us. Their AI-driven threat intelligence platform detected anomalies in our transaction systems before they could escalate, safeguarding our operations and customer trust.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Linda Carter",
+    company: "SmartCity Innovators",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "The IoT security framework provided by GreyLock System was instrumental in securing our smart city infrastructure. Their proactive approach to device authentication and real-time monitoring ensured the safety of critical systems.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Kevin Martinez",
+    company: "Precision Healthcare",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "GreyLock System’s focus on data privacy and compliance helped us meet stringent healthcare regulations. Their automated tools for data management and reporting have become indispensable to our operations.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Elizabeth Green",
+    company: "CoreChain Logistics",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "We needed a secure and transparent blockchain solution for our supply chain, and GreyLock delivered beyond expectations. Their platform enhanced asset tracking and reduced discrepancies, building trust with our partners.",
   },
 ];
+
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Advanced Threat Detection",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Utilize cutting-edge algorithms and AI-powered technology to identify and neutralize potential threats in real-time.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Multi-Cloud Security Integration",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Seamlessly secure your infrastructure across multiple cloud platforms with GreyLock's robust and adaptable solutions.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Real-Time Monitoring",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Stay ahead with live updates and real-time visibility into your network and systems, enabling swift threat mitigation.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Customizable Security Policies",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Tailor security policies to your organization's unique needs, ensuring optimal protection for your data and systems.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Team Collaboration Hub",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Empower your security teams with collaborative tools for streamlined communication, incident handling, and decision-making.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Comprehensive Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Access a detailed analytics dashboard for actionable insights into security trends, vulnerabilities, and system health.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    "title": "Simplify Threat Mitigation",
+    "description": "Easily track and neutralize cyber threats with intuitive AI-driven workflows."
   },
   {
-    title: "Review code without worry",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    "title": "Review Security Incidents Worry-Free",
+    "description": "Gain real-time insights and detailed analysis to address vulnerabilities effortlessly."
   },
   {
-    title: "AI Assistance to reduce time",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    "title": "AI Assistance for Faster Resolutions",
+    "description": "Leverage AI to automate repetitive security tasks and significantly reduce response times."
   },
   {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
+    "title": "Collaborate and Act in Minutes",
+    "description": "Share incident reports and collaborate with your team seamlessly for rapid resolutions."
+  }
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
+    "title": "Starter",
+    "price": "$0",
+    "features": [
+      "Basic Threat Detection",
+      "5 GB Encrypted Data Storage",
+      "Real-Time Security Notifications",
+      "Basic Web Threat Analytics",
+      "Limited Access to AI Assistance"
+    ]
   },
   {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
+    "title": "Professional",
+    "price": "$49",
+    "features": [
+      "Advanced Threat Detection and Mitigation",
+      "50 GB Encrypted Data Storage",
+      "Advanced Security Notifications",
+      "Comprehensive Web Threat Analytics",
+      "AI Assistance for Threat Analysis",
+      "Multi-User Collaboration with Role-Based Access"
+    ]
   },
   {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+    "title": "Enterprise",
+    "price": "$499",
+    "features": [
+      "Comprehensive Threat Detection and Mitigation",
+      "Unlimited Encrypted Data Storage",
+      "Enterprise-Grade Security Network",
+      "Custom Web Threat Analytics Dashboards",
+      "Dedicated AI Security Advisor",
+      "Multi-Tenant Support",
+      "24/7 Priority Support",
+      "Custom Integrations for Business Workflows",
+      "Compliance Monitoring and Reporting"
+    ]
   },
 ];
 
@@ -162,11 +167,11 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "/features", text: "Features" }, // Redirects to a page detailing platform features
+  { href: "/workflow", text: "Workflow" }, // Redirects to a page explaining the workflow and processes
+  { href: "/subscription", text: "Subscription" }, // Redirects to the subscription plans and pricing page
+  { href: "/downloads", text: "Downloads" }, // Redirects to a page offering downloads for tools, apps, or resources
+  { href: "/release-notes", text: "Release Notes" }, // Redirects to a page listing platform updates and release notes
 ];
 
 export const communityLinks = [
@@ -174,5 +179,31 @@ export const communityLinks = [
   { href: "#", text: "Meetups" },
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Carrers" },
+];
+
+export const socialLinks = [
+  { href: "#", text: "X"},
+  { href: "#", text: "Facebook"},
+  { href: "#", text: "LinkedIn"},
+  { href: "#", text: "Instagram"},
+  { href: "#", text: "Github"},
+];
+
+export const contactDetails = [
+  {
+    title: "Phone",
+    value: "+254 1112-55301",
+    icon: "📞", // Optional: Add emojis or icons to represent each detail.
+  },
+  {
+    title: "Email",
+    value: "support@greylock.com",
+    icon: "✉️",
+  },
+  {
+    title: "Address",
+    value: "123 Cyber Lane, Secure City, NY 10001",
+    icon: "📍",
+  },
 ];

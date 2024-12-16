@@ -1,5 +1,6 @@
 import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
+import Hero from "../assets/Hero.mp4";
 
 const HeroSection = () => {
   return (
@@ -36,7 +37,7 @@ const HeroSection = () => {
           className="rounded-lg w-1/2  border-green-700 shadow-sm shadow-teal-400 mx-2 my-4"
         >
           <source 
-            src={video1} 
+            src={Hero} 
             type="video/mp4" 
           />
           Your browser does not support the video tag.
