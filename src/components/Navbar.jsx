@@ -42,7 +42,7 @@ const Navbar = () => {
               href="#"
               className="bg-gradient-to-r from-green-500 to-teal-800 py-2 px-3 rounded-full"
             >
-              Create an account
+              Contact Us
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
