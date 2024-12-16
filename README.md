@@ -1,6 +1,6 @@
 # Greylock Frontend System
 
-![Greylock Logo](public/images/logo.png)
+![Greylock Logo](public/1.png)
 
 Welcome to the **Greylock Security System** Landing page. This project is the frontend component of the Greylock system. Built using modern technologies, the Greylock Frontend System ensures scalability, responsiveness, and intuitive user experiences.
 
