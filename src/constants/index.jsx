@@ -61,95 +61,99 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Advanced Threat Detection",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Utilize cutting-edge algorithms and AI-powered technology to identify and neutralize potential threats in real-time.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Multi-Cloud Security Integration",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Seamlessly secure your infrastructure across multiple cloud platforms with GreyLock's robust and adaptable solutions.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Real-Time Monitoring",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Stay ahead with live updates and real-time visibility into your network and systems, enabling swift threat mitigation.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Customizable Security Policies",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Tailor security policies to your organization's unique needs, ensuring optimal protection for your data and systems.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Team Collaboration Hub",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Empower your security teams with collaborative tools for streamlined communication, incident handling, and decision-making.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Comprehensive Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Access a detailed analytics dashboard for actionable insights into security trends, vulnerabilities, and system health.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    "title": "Simplify Threat Mitigation",
+    "description": "Easily track and neutralize cyber threats with intuitive AI-driven workflows."
   },
   {
-    title: "Review code without worry",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    "title": "Review Security Incidents Worry-Free",
+    "description": "Gain real-time insights and detailed analysis to address vulnerabilities effortlessly."
   },
   {
-    title: "AI Assistance to reduce time",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+    "title": "AI Assistance for Faster Resolutions",
+    "description": "Leverage AI to automate repetitive security tasks and significantly reduce response times."
   },
   {
-    title: "Share work in minutes",
-    description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
-  },
+    "title": "Collaborate and Act in Minutes",
+    "description": "Share incident reports and collaborate with your team seamlessly for rapid resolutions."
+  }
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
-    features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
-    ],
+    "title": "Starter",
+    "price": "$0",
+    "features": [
+      "Basic Threat Detection",
+      "5 GB Encrypted Data Storage",
+      "Real-Time Security Notifications",
+      "Basic Web Threat Analytics",
+      "Limited Access to AI Assistance"
+    ]
   },
   {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
+    "title": "Professional",
+    "price": "$49",
+    "features": [
+      "Advanced Threat Detection and Mitigation",
+      "50 GB Encrypted Data Storage",
+      "Advanced Security Notifications",
+      "Comprehensive Web Threat Analytics",
+      "AI Assistance for Threat Analysis",
+      "Multi-User Collaboration with Role-Based Access"
+    ]
   },
   {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+    "title": "Enterprise",
+    "price": "$499",
+    "features": [
+      "Comprehensive Threat Detection and Mitigation",
+      "Unlimited Encrypted Data Storage",
+      "Enterprise-Grade Security Network",
+      "Custom Web Threat Analytics Dashboards",
+      "Dedicated AI Security Advisor",
+      "Multi-Tenant Support",
+      "24/7 Priority Support",
+      "Custom Integrations for Business Workflows",
+      "Compliance Monitoring and Reporting"
+    ]
   },
 ];
 
@@ -174,5 +178,13 @@ export const communityLinks = [
   { href: "#", text: "Meetups" },
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Carrers" },
 ];
+
+export const socialLinks = [
+  { href: "#", text: "X"}
+  { href: "#", text: "Facebook"}
+  { href: "#", text: "LinkedIn"}
+  { href: "#", text: "Instagram"}
+  { href: "#", text: "Github"}
+]
