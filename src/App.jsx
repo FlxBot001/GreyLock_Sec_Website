@@ -15,7 +15,11 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
+      <div
+        className='px-7'
+      >
       <FeatureSection />
+      </div>
       <Workflow />
       <Pricing />
       <Testimonials />
