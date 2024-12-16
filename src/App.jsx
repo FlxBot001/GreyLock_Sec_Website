@@ -8,6 +8,7 @@ import Workflow from './components/Workflow'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
+import ContactPage from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Workflow />
         <Pricing />
         <Testimonials />
+        <ContactPage />
         <Footer />
       </div>
       

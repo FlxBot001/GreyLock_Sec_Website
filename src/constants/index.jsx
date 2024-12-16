@@ -13,50 +13,51 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Features", href: "#features" }, // Navigates to the Features section of the page
+  { label: "Workflow", href: "#workflow" }, // Navigates to the Workflow section
+  { label: "Pricing", href: "#pricing" }, // Navigates to the Pricing section
+  { label: "Testimonials", href: "#testimonials" }, // Navigates to the Testimonials section
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Mark Thompson",
+    company: "SecureOps Solutions",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "GreyLock System revolutionized our security posture. Their real-time threat detection capabilities and seamless multi-cloud integration helped us mitigate vulnerabilities effectively. Their expertise in cybersecurity is unmatched.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Sarah Collins",
+    company: "NextGen Cloud Services",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "We were struggling with compliance and data security until GreyLock System came in. Their advanced analytics and automated reporting streamlined our compliance processes, saving us countless hours and ensuring audit readiness.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "James Walker",
+    company: "Apex Financial Technologies",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Partnering with GreyLock System was a game-changer for us. Their AI-driven threat intelligence platform detected anomalies in our transaction systems before they could escalate, safeguarding our operations and customer trust.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Linda Carter",
+    company: "SmartCity Innovators",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "The IoT security framework provided by GreyLock System was instrumental in securing our smart city infrastructure. Their proactive approach to device authentication and real-time monitoring ensured the safety of critical systems.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Kevin Martinez",
+    company: "Precision Healthcare",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "GreyLock System’s focus on data privacy and compliance helped us meet stringent healthcare regulations. Their automated tools for data management and reporting have become indispensable to our operations.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Elizabeth Green",
+    company: "CoreChain Logistics",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "We needed a secure and transparent blockchain solution for our supply chain, and GreyLock delivered beyond expectations. Their platform enhanced asset tracking and reduced discrepancies, building trust with our partners.",
   },
 ];
+
 
 export const features = [
   {
@@ -166,11 +167,11 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "/features", text: "Features" }, // Redirects to a page detailing platform features
+  { href: "/workflow", text: "Workflow" }, // Redirects to a page explaining the workflow and processes
+  { href: "/subscription", text: "Subscription" }, // Redirects to the subscription plans and pricing page
+  { href: "/downloads", text: "Downloads" }, // Redirects to a page offering downloads for tools, apps, or resources
+  { href: "/release-notes", text: "Release Notes" }, // Redirects to a page listing platform updates and release notes
 ];
 
 export const communityLinks = [
@@ -182,9 +183,27 @@ export const communityLinks = [
 ];
 
 export const socialLinks = [
-  { href: "#", text: "X"}
-  { href: "#", text: "Facebook"}
-  { href: "#", text: "LinkedIn"}
-  { href: "#", text: "Instagram"}
-  { href: "#", text: "Github"}
-]
+  { href: "#", text: "X"},
+  { href: "#", text: "Facebook"},
+  { href: "#", text: "LinkedIn"},
+  { href: "#", text: "Instagram"},
+  { href: "#", text: "Github"},
+];
+
+export const contactDetails = [
+  {
+    title: "Phone",
+    value: "+254 1112-55301",
+    icon: "📞", // Optional: Add emojis or icons to represent each detail.
+  },
+  {
+    title: "Email",
+    value: "support@greylock.com",
+    icon: "✉️",
+  },
+  {
+    title: "Address",
+    value: "123 Cyber Lane, Secure City, NY 10001",
+    icon: "📍",
+  },
+];

@@ -1,5 +1,5 @@
 import { resourcesLinks, platformLinks, communityLinks } from "../constants";
-import logo from "../assets/logo.png";
+import logor from "../assets/logor.png";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">
@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center flex-shrink-0">
               <img 
                 className="h-10 w-10 mr-2" 
-                src={logo} 
+                src={logor} 
                 alt="Logo" 
               />
               <span className="text-xl tracking-tight">GreyLock</span>
